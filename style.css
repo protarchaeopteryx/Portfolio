@@ -1,5 +1,8 @@
 body{
 	text-align:center;
 	background-image: linear-gradient(to bottom left, black, dimgrey);
-	color: whitesmoke;
+	color: white;
+}
+.carousel-inner{
+	background-image: linear-gradient(to bottom left, blue , dimgrey);
 }

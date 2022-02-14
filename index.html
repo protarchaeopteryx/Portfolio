@@ -1,7 +1,7 @@
 <html>
-<head>
-	<link rel="stylesheet" href="style.css">
-	<title>Pranshu's portfolio</title>
+<head> <title>Bootstrap Example</title> <meta charset="utf-8"> <link rel="stylesheet" type="text/css" href="style.css"> <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js">
+		</script>
 	</head>
 	<body>
 		<h1>Pranshu's portfolio</h1>
@@ -16,11 +16,41 @@
 		</section>
 		<section id="gs">
 		<p class="he">my games</p>
-			<a target="_blank" href="https://studio.code.org/projects/gamelab/AyD0Wuc3NcInZLpthHKhiz2uOhoobfBd7Lx1gYitPi8"><img src="https://studio.code.org/v3/files/AyD0Wuc3NcInZLpthHKhiz2uOhoobfBd7Lx1gYitPi8/.metadata/thumbnail.png"></a>
+			<div id="gc" class="carousel slide">
+			    <div class="carousel-inner">
+				   <div class = "item active">
+					  <center>
+			<a target="_blank" href="https://studio.code.org/projects/gamelab/AyD0Wuc3NcInZLpthHKhiz2uOhoobfBd7Lx1gYitPi8"><img src="https://studio.code.org/v3/files/AyD0Wuc3NcInZLpthHKhiz2uOhoobfBd7Lx1gYitPi8/.metadata/thumbnail.png" class="img-responsive"></a>
+						 <div class="carousive-content">
 			<p class="nm">Flappy Jet</p>
-			<a target="_blank" href="https://studio.code.org/projects/gamelab/Wud3rStPFbWtgREfa1lE3QXU96RDyHkpVoZPAQ0Iz4s"><img src="https://studio.code.org/v3/files/Wud3rStPFbWtgREfa1lE3QXU96RDyHkpVoZPAQ0Iz4s/.metadata/thumbnail.png"></a>
+							</div>
+					  </center>
+					  </div>
+					  <div class = "item">
+					  <center>
+			<a target="_blank" href="https://studio.code.org/projects/gamelab/Wud3rStPFbWtgREfa1lE3QXU96RDyHkpVoZPAQ0Iz4s"><img src="https://studio.code.org/v3/files/Wud3rStPFbWtgREfa1lE3QXU96RDyHkpVoZPAQ0Iz4s/.metadata/thumbnail.png" class="img-responsive"></a>
+			    <div class="carousive-content">
 			<p class="nm">Oh Shoot</p>
+					</div>
+					  </center>
+					  </div>
+					<div class = "item">
+					  <center>
+					<div class="carousive-content">	  
 			<p class="nm"><a href="https://studio.code.org/projects/gamelab/J-m0rnVrNog0PcW-45mLi2HLM-w8QYiO-ModJxJrv-A">Pong Cap</a></p>
+					</div>
+					  </center>
+					  </div>
+			    </div>
+				
+				<a class="left carousel-control" href="#gc" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+				</a>
+				
+				<a class="right carousel-control" href="#gc" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+				</a>
+			</div>
 		</section>
 		<section id="cs">
 		<p class="he">my chatbots</p>
@@ -31,7 +61,6 @@
     height="430"
     src="https://console.dialogflow.com/api-client/demo/embedded/0fb64d74-559b-45bc-aac9-94383f256743">
 </iframe>
-		
-		</section>
+</section>
 	</body>
 </html>
